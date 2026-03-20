@@ -1,6 +1,11 @@
-# Spotify Advanced SQL Project 
+# 🎧 Spotify Data Analysis using SQL
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
+
+#PROJECT STUCTURE:
+/dataset        # Spotify dataset CSV
+/queries        # SQL scripts for easy, medium, advanced queries
+README.md       # Project documentation
 
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
@@ -195,5 +200,31 @@ FROM cte
 ORDER BY 2 DESC
 ```
    
+## Key Insights
 
+- Some tracks have crossed **1 billion streams**, showing massive popularity.
+- Certain artists dominate with consistently high-view tracks.
+- Albums show significant variation in **energy levels**, indicating diversity in music style.
+- Spotify vs YouTube comparison reveals platform-specific audience preferences.
+
+## Skills Demonstrated
+
+- SQL Aggregations (SUM, AVG, COUNT)
+- Window Functions (DENSE_RANK)
+- Subqueries and CTEs
+- Data Cleaning and Filtering
+- Analytical Thinking
+
+## Tools Used
+
+- SQL (MySQL)
+- Dataset: Kaggle Spotify Dataset
+- GitHub for version control
+
+## How to Run
+
+1. Download dataset from Kaggle
+2. Import into MySQL
+3. Run the table creation script
+4. Execute queries step-by-step
 
